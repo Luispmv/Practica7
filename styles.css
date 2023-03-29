@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #8F43EE;
+    position: fixed;
+    padding-top: 25px;
+    font-family: 'Signika', sans-serif;
+    border: solid;
+    border-color: black;
+}
+.static{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: #576CBC;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    border: solid;
+    border-color: black;
+}
+.static div {
+    margin-top: 40px;
+}
+.absolute{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+   background-color: #FC2947;
+   font-family: 'Signika', sans-serif;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+.relative{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #F7C04A;
+    font-family: 'Signika', sans-serif;
+    background: rgba( 247, 192, 74, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: solid;
+    border-color: black;
+}
+.sticky{
+    position: sticky;
+    width: 300px;
+    height: 300px;
+    background-color: #F94A29;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    border: solid;
+    border-color: black;
+}
+.sticky div {
+    padding-top: 50px;
+}
